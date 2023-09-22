@@ -1,0 +1,425 @@
+/* Index.html */
+body#PageIndex {
+    background-color: #f0ffff;
+}
+
+.Headings {
+    text-align: center;
+    border: 3px solid green;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.Video {
+    text-align: center;
+}
+
+.Introduction {
+    float: left;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 47%;
+    height: 470px;
+    border: 1px solid black;
+    background-color: blanchedalmond;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.Introduction h2 {
+    text-decoration: underline;
+}
+
+.Process {
+    float:right;
+    margin-right: 1.5%;
+    margin-bottom: 20px;
+    padding: 5px;
+    width: 46%;
+    height: 470px;
+    border:1px solid black;
+    background-color: blanchedalmond;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.Process h2 {
+    text-decoration: underline;
+}
+
+.Description {
+    text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
+    font-family: "Times New Roman", Times, serif;
+}
+
+.TableofContents {
+    text-align: center;
+    font-size: large;
+    font-family: "Times New Roman", Times, serif;
+}
+
+#emojidiv ul {
+    list-style: none;
+}
+
+#emojidiv ul li:before {
+    content: "\1F95E";
+    padding-right:3px;
+} 
+
+ul.bullet {
+    display: table; 
+    margin: 0 auto;
+    text-align: left;
+}
+
+/* CPU.html */
+body#PageCPU {
+    background-color: #F1FFC4;
+}
+
+#CPUTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#CPUHeading {
+    float: left;
+    text-align: center;
+    width: 20%;
+    height: 230px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#CPUContent {
+    float: right;
+    width: 79.9%;
+    height: 230px;
+    font-size: large;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#CPUHyperlink {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* GPU.html */
+body#PageGPU {
+    background-color: #F1FFC4;
+}
+
+#GPUTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#GPUHeading {
+    float: left;
+    text-align: center;
+    width: 26%;
+    height: 230px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#GPUContent {
+    float: right;
+    width: 73.9%;
+    height: 230px;
+    font-size: large;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#GPUHyperlink {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* RAM.html */
+body#PageRAM {
+    background-color: #F1FFC4;
+}
+
+#RAMTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#RAMHeading {
+    float: left;
+    text-align: center;
+    width: 26%;
+    height: 230px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#RAMContent {
+    float: right;
+    width: 73.9%;
+    height: 230px;
+    font-size: large;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#RAMHyperlink {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* Storage.html */
+body#PageStorage {
+    background-color: #F1FFC4;
+}
+#StorageTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#StorageHeading {
+    float: left;
+    text-align: center;
+    width: 32%;
+    height: 230px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#StorageContent {
+    float: right;
+    width: 67.9%;
+    height: 230px;
+    font-size: large;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#StorageHyperlink {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* PSU.html */
+body#PagePSU {
+    background-color: #F1FFC4;
+}
+#PSUTitle {
+    text-align: center;
+    text-decoration: underline;
+}
+
+#PSUHeading {
+    float: left;
+    text-align: center;
+    width: 25%;
+    height: 230px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-left: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#PSUContent {
+    float: right;
+    width: 74.9%;
+    height: 230px;
+    font-size: large;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-bottom: 20px;
+}
+
+#PSUHyperlink {
+    text-align: center;
+    font-size: x-large;
+}
+
+/* Analysis.html */
+body#PageAnalysis {
+    background-color: lemonchiffon;
+}
+
+#AnalysisHeading {
+    text-align: center;
+    font-size: x-large;
+    text-decoration: underline;
+}
+
+#AnalysisDesc {
+    text-align: justify;
+    font-size: x-large;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+#GoogleFormResult {
+    text-align: center;
+    text-decoration: underline;
+    border: 2px solid #000;
+    width: 65%;
+    margin-left: 17.5%;
+    margin-right: 17.5%;
+    background-color: pink;
+}
+
+.table {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    background-color: white;
+}
+
+tr:hover {
+    background-color: #D6EEEE;
+}
+
+#ResultAnalysis {
+    text-align: justify;
+    font-size: large;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#ResultConclusion {
+    text-align: justify;
+    font-size: x-large;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+h3.underline {
+    text-decoration: underline;
+    text-align: center;
+}
+
+#Result1 {
+    text-align: justify;
+    font-size: large;
+    border: 2px solid #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #F0FFFF;
+}
+
+#Result2 {
+    text-align: justify;
+    font-size: large;
+    border: 2px solid #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #F0FFFF;
+}
+
+#Result3 {
+    text-align: justify;
+    font-size: large;
+    border: 2px solid #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    padding: 5px;
+    background-color: #F0FFFF;
+}
+
+#Result4 {
+    text-align: justify;
+    font-size: large;
+    border: 2px solid #000;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 5px;
+    background-color: #F0FFFF;
+}
+
+#img1 {
+    text-align: center;
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+#img2 {
+    text-align: center;
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+#img3 {
+    text-align: center;
+    border: 2px solid #000;
+    padding: 10px;
+    background-color: #FFFFFF;
+}
+
+h2.conclusionunderline {
+    text-decoration: underline;
+}
+
+#conclusion {
+    margin-left: 5%;
+    margin-right: 5%;
+    font-size: x-large;
+}
+
+#HyperlinkEnd {
+    text-align: right;
+    font-size: x-large;
+    margin-right: 30px;
+}
+
+/* Navigation Bar */
+ul.navigationbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #ff8800;
+    border: 2px solid #000;
+    margin-bottom: 5px;
+}
+  
+li.navigationbar {
+    float: left;
+}
+  
+li.navigationbar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li.navigationbar a:hover {
+    background-color: #111;
+  }
